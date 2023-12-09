@@ -1,0 +1,13 @@
+{
+  "name": "boilerplate-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.go",
+  "scripts": {
+    "go": "go mod tidy && go run ./main.go",
+    "start": "go mod tidy && go run ./main.go",
+    "gomon": "go mod tidy && nodemon --exec go run ./main.go"
+  },
+  "author": "",
+  "license": "ISC"
+}
